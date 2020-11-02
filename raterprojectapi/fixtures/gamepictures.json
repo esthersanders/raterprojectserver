@@ -1,0 +1,12 @@
+[
+    {
+        "model": "raterprojectapi.gamepicture",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+            "picture": "https://images-na.ssl-images-amazon.com/images/I/51WJGP4DgCL._AC_.jpg",
+            "user": 1
+    
+        }
+    }
+]

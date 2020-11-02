@@ -1,0 +1,15 @@
+[{
+    "model": "raterprojectapi.game",
+    "pk": 1,
+    "fields": {
+        "title": "Clue",
+        "description": "murder mystery board game",
+        "designer": "Anthony E. Pratt",
+        "release_year": 1949,
+        "number_of_players": 6,
+        "time": 60,
+        "age": 8,
+        "user": 1
+    }
+}
+]
