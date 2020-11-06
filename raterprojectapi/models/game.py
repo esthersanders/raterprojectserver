@@ -1,4 +1,5 @@
 """Game model module"""
+from raterprojectapi.models import gamecategory
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -13,4 +14,9 @@ class Game(models.Model):
     number_of_players = models.IntegerField()
     time = models.IntegerField()
     age = models.IntegerField()
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    player = models.ForeignKey("Player", on_delete=models.CASCADE)
+
+    @property
+    def categories(self):
+        game_categories = self.game_categories.all()
+        return [ gamecategory.category for gamecategory in game_categories]

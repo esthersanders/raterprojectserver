@@ -9,7 +9,7 @@
         "number_of_players": 6,
         "time": 60,
         "age": 8,
-        "user": 1
+        "player": 1
     }
 }
 ]
